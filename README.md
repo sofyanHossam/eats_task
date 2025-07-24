@@ -128,6 +128,7 @@ Absolutely! Here's a complete `ConstraintLayout` XML with the components you men
     </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 # 🧠 Prompt 2: Product Card Design – AI Conversation Log
 
