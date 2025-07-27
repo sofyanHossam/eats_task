@@ -3,6 +3,10 @@
 This project is a single-screen Android demo app built using **Java**, following the **MVVM Clean Architecture pattern**.  
 It loads a list of products from a local **Room Database** and displays them in a **2-column Grid RecyclerView**.
 
+## 📦 Screenshot 
+
+![imgonline-com-ua-twotoone-me8O7ITjFmN](https://github.com/user-attachments/assets/963dbb96-3de3-4118-a9f7-3b01aba648f4)
+
 ---
 
 ## 📦 Features
