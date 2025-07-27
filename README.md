@@ -5,7 +5,8 @@ It loads a list of products from a local **Room Database** and displays them in 
 
 ## 📦 Screenshot 
 
-![imgonline-com-ua-twotoone-me8O7ITjFmN](https://github.com/user-attachments/assets/963dbb96-3de3-4118-a9f7-3b01aba648f4)
+
+![imgonline-com-ua-twotoone-Sk1EhRJiHf](https://github.com/user-attachments/assets/e3555c0c-6037-478e-a3b2-967c7c346033)
 
 ---
 
