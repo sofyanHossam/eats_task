@@ -16,6 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:titleTextAppearance="@style/ToolbarTitleBold"
         app:navigationIcon="@drawable/baseline_search_24"
         app:title="التصنيفات"
         app:titleTextColor="@color/dark_blue"
