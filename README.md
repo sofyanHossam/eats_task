@@ -1,3 +1,66 @@
+# 🛒 Simple Product Grid Demo - Android MVVM (Java + Room)
+
+This project is a single-screen Android demo app built using **Java**, following the **MVVM Clean Architecture pattern**.  
+It loads a list of products from a local **Room Database** and displays them in a **2-column Grid RecyclerView**.
+
+---
+
+## 📦 Features
+
+- 🔄 **MVVM Clean Architecture**:
+  - **Data layer** (Room DB, DAO, Models, Repository Implementation)
+  - **Domain layer** (Repository Interface)
+  - **View layer** (ViewModel, Activity, Adapter)
+
+- 🗂 **Room Database** with `ProductDao` and `ProductModel`
+
+- 📊 **LiveData**: Observes database changes and updates UI automatically.
+
+- 🖼 **Picasso**: For loading and displaying product images.
+
+- 💾 **SharedPreferences**: Used to insert dummy data only once (first app launch) to avoid empty lists.
+
+- 🔵 **CircularImageView**: Product images are displayed in rounded/circle shape.
+
+- 🔄 **Manual threading**: A separate thread is used for Room DB operations to avoid blocking the UI.
+
+- 🖱 **UI**:
+  - Products displayed in `RecyclerView` with **GridLayoutManager (2 columns)**
+  - Each item is **tappable**, showing a **Toast** with the product name
+
+- 🤖 **Proxi AI Plugin** integrated throughout the app  
+  (More usages will be documented soon...)
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+├── data/
+│   ├── local/
+│   │   ├── ProductDao.java
+│   │   ├── ProductDatabase.java
+│   ├── model/
+│   │   └── ProductModel.java
+│   └── repository/
+│       └── ProductRepositoryImpl.java
+
+├── domain/
+│   └── repository/
+│       └── ProductRepository.java
+
+├── view/
+│   ├── adapter/
+│   │   └── ProductAdapter.java
+│   ├── viewmodel/
+│   │   └── ProductViewModel.java
+│   └── MainActivity.java
+
+```
+
+# Proxi AI Chat :
+
+
 ## Main Layout
 
 **Me:**  
