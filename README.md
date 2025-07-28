@@ -1271,3 +1271,81 @@ then show all the items on recycle view by using adapter and viewmodel
 ### CodeGPT:
 null
 
+# 📲 Android Studio Project with Proxi AI Integration
+
+This project demonstrates how I used **Proxi AI** to assist in building an Android app from scratch using **Java**, **Room (SQLite)**, and **MVVM + Clean Architecture**, all while leveraging AI-powered development features for rapid prototyping and UI building.
+
+---
+
+## 🧠 How I Used Proxi AI
+
+### 🔧 1. Project Setup
+
+- Created a new Android Studio project using **Java**.
+- Installed the **Proxi AI plugin** and integrated it with the IDE.
+
+---
+
+### 🖌️ 2. AI-Driven UI Design
+
+- Read the task and started by implementing the UI.
+- Sent a screenshot of the required screen design to Proxi AI.
+- Explained my requirements clearly based on the attached image.
+- Clicked **"Insert at caret"** after clearing the `main.xml` to allow AI to generate the layout code.
+- Proxi AI auto-created layout files including item views and base screens.
+- Reviewed the generated result and compared it to the original design:
+  - If differences were found, I highlighted the issue.
+  - Provided feedback to Proxi AI describing the problem.
+  - Used **"Auto Apply"** to apply fixes and updates.
+- Repeated the process until the main layout and item views matched the design perfectly.
+
+---
+
+### 🗂️ 3. Setting Up Room Database with MVVM + Clean Architecture
+
+- Chose **Room SQLite** for local data persistence.
+- Structured the app following **MVVM + Clean Architecture**.
+- Created all core files as empty placeholders:
+  - `Model`, `DAO`, `Database Client`, `RepositoryImpl`, `RepositoryInterface`, `ViewModel`, `Adapter`, `MainActivity`.
+
+---
+
+### 🧠 4. Using Proxi AI to Build Data Layer
+
+- Described the data model to Proxi AI and defined the required functionality:
+  - Inserting new data.
+  - Retrieving all data.
+- Asked Proxi AI to implement the Room DB logic.
+- AI created and/or updated files accordingly:
+  - Some files were auto-created.
+  - Others were edited with AI suggestions.
+- Verified everything compiled and ran as expected.
+
+---
+
+### 🐛 5. Debugging with Proxi AI
+
+- Faced an issue: **data was not showing after insertion**.
+- Asked Proxi AI for help.
+- AI analyzed the issue and suggested converting the DAO methods to return **`LiveData`**.
+- Accepted the suggestion and clicked **"Auto Apply"**.
+- That fixed the problem, and data started showing correctly in the UI.
+
+---
+
+## ✅ Result
+
+Thanks to **Proxi AI**, I was able to:
+
+- Build the UI rapidly with AI-generated XML layouts.
+- Set up a working Room database with clean MVVM structure.
+- Debug and fix issues with AI-assisted suggestions.
+- Complete the task faster, with more focus on logic and functionality.
+
+---
+
+## 📸 Notes
+
+- Screenshots, generated files, and Proxi AI interactions are available upon request or can be shared in a demo video.
+
+
