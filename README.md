@@ -4,8 +4,7 @@ This project is a single-screen Android demo app built using **Java**, following
 It loads a list of products from a local **Room Database** and displays them in a **2-column Grid RecyclerView**.
 
 ## 📦 Screenshot 
-
-<img width="1132" height="1171" alt="image" src="https://github.com/user-attachments/assets/2417ea71-b3b3-4230-9af7-bec875028b00" />
+<img width="1132" height="1171" alt="image" src="https://github.com/user-attachments/assets/8647e5a7-3556-4ba8-9384-0c84a36d5c8f" />
 
 
 ---
