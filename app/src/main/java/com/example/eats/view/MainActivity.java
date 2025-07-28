@@ -162,29 +162,29 @@ public class MainActivity extends AppCompatActivity {
         if (isInserted) return;
 
         List<Product> dummyProducts = new ArrayList<>();
-        dummyProducts.add(new Product("Pizza Margherita", 8.99, "Pizza",
-                "https://media.istockphoto.com/id/184946701/photo/pizza.jpg",
-                "https://icon2.cleanpng.com/20180605/bwb/kisspng-pizza-hut-logo.png"));
+        dummyProducts.add(new Product("Pizza Margherita", 18.99, "Pizza",
+                "https://t3.ftcdn.net/jpg/06/27/23/56/360_F_627235669_iz0O2leKYRzjxAKdFP7odpp9eCOZREtN.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTok7rpa2oCOiSqd-CnOdsAOOe5lFh-rISM9w&s"));
 
-        dummyProducts.add(new Product("Cheeseburger", 6.49, "Burger",
-                "https://media.istockphoto.com/id/184946701/photo/pizza.jpg",
-                "https://icon2.cleanpng.com/20180605/bwb/kisspng-pizza-hut-logo.png"));
+        dummyProducts.add(new Product("Cheeseburger", 26.49, "Burger",
+                "https://static.vecteezy.com/system/resources/previews/022/911/694/non_2x/cute-cartoon-burger-icon-free-png.png",
+                "https://static.vecteezy.com/system/resources/thumbnails/019/909/468/small/burger-king-transparent-burger-king-free-free-png.png"));
 
         dummyProducts.add(new Product("Sushi Combo", 12.99, "Sushi",
-                "https://media.istockphoto.com/id/184946701/photo/pizza.jpg",
-                "https://icon2.cleanpng.com/20180605/bwb/kisspng-pizza-hut-logo.png"));
+                "https://static.vecteezy.com/system/resources/previews/022/911/694/non_2x/cute-cartoon-burger-icon-free-png.png",
+                "https://static.vecteezy.com/system/resources/thumbnails/019/909/468/small/burger-king-transparent-burger-king-free-free-png.png"));
 
-        dummyProducts.add(new Product("Tacos", 5.99, "Mexican",
-                "https://media.istockphoto.com/id/184946701/photo/pizza.jpg",
-                "https://icon2.cleanpng.com/20180605/bwb/kisspng-pizza-hut-logo.png"));
+        dummyProducts.add(new Product("Tacos", 59.99, "Mexican",
+                "https://t3.ftcdn.net/jpg/06/27/23/56/360_F_627235669_iz0O2leKYRzjxAKdFP7odpp9eCOZREtN.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTok7rpa2oCOiSqd-CnOdsAOOe5lFh-rISM9w&s"));
 
-        dummyProducts.add(new Product("Fried Chicken", 7.49, "Chicken",
-                "https://media.istockphoto.com/id/184946701/photo/pizza.jpg",
-                "https://icon2.cleanpng.com/20180605/bwb/kisspng-pizza-hut-logo.png"));
+        dummyProducts.add(new Product("Fried Chicken", 78.49, "Chicken",
+                "https://static.vecteezy.com/system/resources/previews/022/911/694/non_2x/cute-cartoon-burger-icon-free-png.png",
+                "https://static.vecteezy.com/system/resources/thumbnails/019/909/468/small/burger-king-transparent-burger-king-free-free-png.png"));
 
-        dummyProducts.add(new Product("Pasta Carbonara", 9.49, "Pasta",
-                "https://media.istockphoto.com/id/184946701/photo/pizza.jpg",
-                "https://icon2.cleanpng.com/20180605/bwb/kisspng-pizza-hut-logo.png"));
+        dummyProducts.add(new Product("Pasta Carbonara", 99.49, "Pasta",
+                "https://t3.ftcdn.net/jpg/06/27/23/56/360_F_627235669_iz0O2leKYRzjxAKdFP7odpp9eCOZREtN.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTok7rpa2oCOiSqd-CnOdsAOOe5lFh-rISM9w&s"));
 
         for (Product product : dummyProducts) {
             viewModel.insertProduct(product);

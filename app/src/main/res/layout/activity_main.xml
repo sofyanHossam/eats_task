@@ -58,7 +58,7 @@
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cartBar"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="45dp"
         android:layout_gravity="bottom"
         android:layout_margin="16dp"
         app:cardCornerRadius="24dp"
